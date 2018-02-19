@@ -89,6 +89,7 @@ class TimerActivity : AppCompatActivity() {
     }
 
     private fun updateButtons() {
+        //switch statement in Kotlin
         when (timerState) {
             TimerState.Running -> {
                 fab_start.isEnabled = false
